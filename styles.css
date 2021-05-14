@@ -1,0 +1,31 @@
+body{
+    max-width:760px;
+    margin:0 auto;
+}
+header{
+    display:block;
+    text-align:center;
+    background-color:#f0f8ff;
+    border-radius:15px;
+    padding:2em;
+}
+header img{
+    float:right;
+}
+main{
+padding:3em;
+}
+h2{
+    border-bottom-style:dotted;
+}
+footer {
+    display:flex;
+    justify-content:center;
+    background-color:#f9f8ff;
+    padding:2em;
+    border-radius:15px;
+}
+p{
+    display:flex;
+    justify-content:center;
+}
