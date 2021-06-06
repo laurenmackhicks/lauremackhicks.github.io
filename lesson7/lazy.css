@@ -1,10 +1,12 @@
 body {
     max-width:960px;
     margin:0 auto;
+    
 }
 img{
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 img[data-src] {
     filter: blur(0.2em);
