@@ -2,7 +2,9 @@
 h1{
     font-family: 'Montserrat', sans-serif;}
 h2{
-    font-family: 'Montserrat', sans-serif;}
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 1em;}
 h3{
     font-family: 'Montserrat', sans-serif;}
 p{
@@ -54,15 +56,23 @@ footer{
     display:flex;
     justify-content:center;
 }
-#gallery img{
-    display:flex;
-    
+.gal7{
+    margin:0 auto;
+    max-width:960px;
+    align-items: center ;
 }
-#gallery img[data-src] {
+.gallery{
+    display:flex;
+    flex-flow:wrap;
+    align-content: center;
+    justify-content: center;
+}
+.gallery img[data-src] {
     filter: blur(0.2em);
   }
   
-#gallery img {
+.gallery img {
     filter: blur(0em);
     transition: filter 0.5s;
+    padding:0.5em;
   }
