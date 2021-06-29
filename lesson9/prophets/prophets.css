@@ -62,13 +62,16 @@ header h1{
 .cards {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 5px;
 }
 main section{
     margin-left:25px;
 }
-section img{
+img{
     width:100px;
     align-items: center;
+    margin: 5px auto 0 auto;
+    display:block;
 }
 main p{
     text-align: center;
